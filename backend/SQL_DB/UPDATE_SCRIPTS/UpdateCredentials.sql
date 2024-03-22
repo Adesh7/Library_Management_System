@@ -1,0 +1,1 @@
+Update Credentials SET Password = '$Password' where UserName = '$UserName'
