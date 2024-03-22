@@ -51,6 +51,7 @@ export default {
           let response = http.text();
           if (http.ok) {
             console.log("created");
+            this.$router.push("/home");
           } else {
             return response.then((response) => {
               throw new Error(response);
