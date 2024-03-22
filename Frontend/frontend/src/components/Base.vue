@@ -9,8 +9,6 @@ export default {
   name: "BaseComponent",
   props: {
     msg: String,
-    userName: String,
-    passWord: String,
   },
 };
 </script>
